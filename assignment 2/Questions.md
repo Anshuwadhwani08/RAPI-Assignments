@@ -7,7 +7,7 @@ d2.X = 5;
 Console.WriteLine(d1.X);
 ```
 
-1. Predict the output 
+2. Predict the output 
    ```
     struct Point { public int X; }
     Point p1 = new Point { X = 10 };
@@ -16,7 +16,7 @@ Console.WriteLine(d1.X);
     Console.WriteLine(p1.X);
     ```
 
-2. Predict the output 
+3. Predict the output 
    ```
     struct Point { public int X; }
 
@@ -33,7 +33,7 @@ Console.WriteLine(d1.X);
     }
    ```
 
-3. What will be output.
+4. What will be output.
    
     ```
     static void ChangeString(string str)
@@ -49,7 +49,7 @@ Console.WriteLine(d1.X);
     }
    ```
 
-4. What will be output.
+5. What will be output.
    
    ```
     struct S { public int X; }
@@ -69,7 +69,7 @@ Console.WriteLine(d1.X);
     }
     ```
 
-5.  What will be output.
+6.  What will be output.
    
     ```
     int num = 100;
@@ -78,7 +78,7 @@ Console.WriteLine(d1.X);
     Console.WriteLine((int)obj);
     ```
 
-6.  What will be output.
+7.  What will be output.
    
     ```
     void Add(ref int x)
@@ -91,7 +91,7 @@ Console.WriteLine(d1.X);
         
     ```
 
-7. What will be output.
+8. What will be output.
    
      ```
     class Employee { public string Name; }
@@ -106,7 +106,7 @@ Console.WriteLine(d1.X);
     Console.WriteLine(e.Name);  
     ```
 
-8. Give output
+9. Give output
     ```
         string a = "OpenAI";
         string b = new string("OpenAI".ToCharArray());
@@ -117,7 +117,7 @@ Console.WriteLine(d1.X);
         Console.WriteLine(object.ReferenceEquals(b, c));     
     ```
 
-9.  Give output
+10.  Give output
     ```
         object obj = 123;
         int num = (int)obj;
